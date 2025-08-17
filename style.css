@@ -12,12 +12,16 @@
   /*====== TYPOGRAPHY ======*/
   font-size: 10px;
   --font-family: "Barlow Semi Condensed", sans-serif;
+  --normal: 1.3rem;
+  --small: 1.1rem;
+  --medium: 1.5rem;
+  --large: 2rem;
   /*====== COLORS ======*/
 
   /* PRIMARY COLOR */
   --Purple50: hsl(260, 100%, 95%);
   --Purple300: hsl(264, 82%, 80%);
-  --Purple500: hsl(263, 55%, 52%)
+  --Purple500: hsl(263, 55%, 52%);
   /* NEUTRAL COLOR */
   --White: hsl(0, 0%, 100%);
   --Grey100: hsl(214, 17%, 92%);
@@ -37,6 +41,99 @@
   /*====== SHADOWS ======*/
   --shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.1);
   --shadow-hover: 0px 20px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Grey100);
+  font-family: var(--font-family);
+}
+
+section {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "un un deux cinq"
+    "trois quatre quatre cinq";
+  gap: 2.4rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: var(--normal);
+}
+
+p {
+  font-size: var(--small);
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.un {
+  background-color: var(--Purple500);
+  color: var(--White);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem;
+  grid-area: un;
+}
+.deux {
+  background-color: var(--Grey500);
+  color: var(--White);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem;
+  grid-area: deux;
+}
+.trois {
+  background-color: var(--White);
+  color: var(--Dark-blue);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem;
+  grid-area: trois;
+}
+.quatre {
+  background-color: var(--Dark-blue);
+  color: var(--White);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem;
+  grid-area: quatre;
+}
+.cinq {
+  background-color: var(--White);
+  color: var(--Dark-blue);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem;
+  grid-area: cinq;
+}
+.quote {
+  font-size: var(--large);
+  font-weight: 700;
+}
+.header {
+  font-size: var(--medium);
+  font-weight: 700;
+  margin: 1.6rem 0;
+}
+
+.avatar {
+  width: 3.2rem;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .attribution {
