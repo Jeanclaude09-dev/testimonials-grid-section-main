@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /*====== TYPOGRAPHY ======*/
+  font-size: 10px;
+  --font-family: "Barlow Semi Condensed", sans-serif;
+  /*====== COLORS ======*/
+  --White: hsl(0, 0%, 100%);
+  --Grey100: hsl(214, 17%, 92%);
+  --Grey200: hsl(0, 0%, 81%);
+  --Grey400: hsl(224, 10%, 45%);
+  --Grey500: hsl(217, 19%, 35%);
+  --Dark-blue: hsl(219, 29%, 14%);
+  --Black: hsl(0, 0%, 7%);
+  /*====== BREAKPOINTS ======*/
+  --mobile: 375px;
+  --tablet: 768px;
+  --laptop: 1024px;
+  --laptopL: 1280px;
+  --desktop: 1440px;
+  /*====== TRANSITIONS ======*/
+  --transition: all 0.3s ease-in-out;
+  /*====== SHADOWS ======*/
+  --shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0px 20px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
