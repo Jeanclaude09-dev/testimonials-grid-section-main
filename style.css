@@ -49,19 +49,19 @@ h2 {
 }
 
 main {
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   display: grid;
-  padding: 4rem;
-  justify-content: center;
+  padding: 5rem;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 32rem;
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     "un un deux cinq"
     "trois quatre quatre cinq";
-  gap: 2rem;
+  gap: 1rem;
   background-color: var(--Grey100);
   font-family: var(--font-family);
+  place-items: center;
 }
 
 figure {
