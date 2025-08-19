@@ -43,6 +43,90 @@
   --shadow-hover: 0px 20px 30px -10px rgba(0, 0, 0, 0.2);
 }
 
+h2 {
+  font-size: var(--normal);
+  font-weight: 700;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  padding: 4rem;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 32rem;
+  grid-template-areas:
+    "un un deux cinq"
+    "trois quatre quatre cinq";
+  gap: 2rem;
+  background-color: var(--Grey100);
+  font-family: var(--font-family);
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.header {
+  font-size: var(--large);
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.quote {
+  font-size: var(--normal);
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.un {
+  grid-area: un;
+  background-color: var(--Purple500);
+  color: var(--White);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.deux {
+  grid-area: deux;
+  background-color: var(--Grey500);
+  color: var(--White);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.trois {
+  grid-area: trois;
+  background-color: var(--White);
+  color: var(--Dark-blue);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.quatre {
+  grid-area: quatre;
+  background-color: var(--Dark-blue);
+  color: var(--White);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.cinq {
+  grid-area: cinq;
+  background-color: var(--White);
+  color: var(--Dark-blue);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
