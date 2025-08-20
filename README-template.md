@@ -53,12 +53,21 @@ Users should be able to:
 
 - Background-image :
 
+```css
+.un {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+```
+
 ### Continued development
 
 - Properly center a grid
 - Media queries
 - Mobile-first Workflow
 - CSS variables
+- background images
 
 ## Author
 
