@@ -159,7 +159,7 @@ p {
 
 .deux {
   grid-area: deux;
-  background-color: var(--Dark-blue);
+  background-color: var(--Grey400);
   color: var(--White);
   padding: 2rem;
   border-radius: 1rem;
@@ -174,7 +174,7 @@ p {
 .trois {
   grid-area: trois;
   background-color: var(--White);
-  color: var(--Dark-blue);
+  color: var(--Grey500);
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: var(--shadow);
@@ -202,7 +202,7 @@ p {
 .cinq {
   grid-area: cinq;
   background-color: var(--White);
-  color: var(--Dark-blue);
+  color: var(--Grey500);
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: var(--shadow);
