@@ -72,7 +72,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Jeanclaude09-dev](https://www.frontendmentor.io/profile/Jeanclaude09-dev)
-- instagram - [@iamje_nclaude](https://www.instagram.com/iamje_nclaude)
+- Github - [@jeanclaude09-dev](https://github.com/Jeanclaude09-dev)
 
 ## Acknowledgments
 
