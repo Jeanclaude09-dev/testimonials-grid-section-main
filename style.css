@@ -61,8 +61,8 @@ main {
   max-width: 80%;
   grid-auto-columns: 1fr;
   grid-template-areas:
-    "un un deux cinq"
-    "trois quatre quatre cinq";
+    "Daniel Daniel Jonathan Kira"
+    "Jeanette Patrick Patrick Kira";
   gap: 1.5rem;
 }
 
@@ -75,8 +75,8 @@ main {
   .grid {
     max-width: 95%;
     grid-template-areas:
-      "un un deux cinq"
-      "trois quatre quatre cinq";
+      "Daniel Daniel Jonathan Kira"
+      "Jeanette Patrick Patrick Kira";
   }
 }
 
@@ -89,9 +89,9 @@ main {
   .grid {
     max-width: 95%;
     grid-template-areas:
-      "un un deux "
-      "trois quatre quatre"
-      "cinq cinq cinq";
+      "Daniel Daniel Jonathan "
+      "Jeanette Patrick Patrick"
+      "Kira Kira Kira";
   }
 }
 
@@ -104,11 +104,11 @@ main {
   .grid {
     max-width: 100%;
     grid-template-areas:
-      "un"
-      "deux"
-      "trois "
-      "quatre"
-      "cinq";
+      "Daniel"
+      "Jonathan"
+      "Jeanette"
+      "Patrick"
+      "Kira";
   }
 }
 
@@ -140,8 +140,8 @@ p {
   line-height: 1.3;
 }
 
-.un {
-  grid-area: un;
+.Daniel {
+  grid-area: Daniel;
   background-color: var(--Purple500);
   color: var(--White);
   padding: 2rem;
@@ -152,13 +152,13 @@ p {
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
-.un:hover {
+.Daniel:hover {
   transform: var(--transform);
   box-shadow: var(--shadow-hover);
 }
 
-.deux {
-  grid-area: deux;
+.Jonathan {
+  grid-area: Jonathan;
   background-color: var(--Grey400);
   color: var(--White);
   padding: 2rem;
@@ -166,13 +166,13 @@ p {
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
-.deux:hover {
+.Jonathan:hover {
   transform: var(--transform);
   box-shadow: var(--shadow-hover);
 }
 
-.trois {
-  grid-area: trois;
+.Jeanette {
+  grid-area: Jeanette;
   background-color: var(--White);
   color: var(--Grey500);
   padding: 2rem;
@@ -180,13 +180,13 @@ p {
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
-.trois:hover {
+.Jeanette:hover {
   transform: var(--transform);
   box-shadow: var(--shadow-hover);
 }
 
-.quatre {
-  grid-area: quatre;
+.Patrick {
+  grid-area: Patrick;
   background-color: var(--Dark-blue);
   color: var(--White);
   padding: 2rem;
@@ -194,13 +194,13 @@ p {
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
-.quatre:hover {
+.Patrick:hover {
   transform: var(--transform);
   box-shadow: var(--shadow-hover);
 }
 
-.cinq {
-  grid-area: cinq;
+.Kira {
+  grid-area: Kira;
   background-color: var(--White);
   color: var(--Grey500);
   padding: 2rem;
@@ -208,7 +208,7 @@ p {
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
-.cinq:hover {
+.Kira:hover {
   transform: var(--transform);
   box-shadow: var(--shadow-hover);
 }
